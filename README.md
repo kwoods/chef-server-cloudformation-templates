@@ -60,6 +60,10 @@ Standalone
 
 `standalone-centos6_amd64.json` installs Chef Server 12 on an EBS-backed CentOS6 instance. Stores cookbooks in S3. The images in use are the ones from [Bashton](http://www.bashton.com/) since they include cloud-init.
 
+`standalone-amazon_linux_2015_09_1_amd64.json` installs Chef Server 12 on Amazon Linux 2015.09.1 (HVM), SSD Volume Type instance and stores cookbooks in S3.
+
+`standalone-ubuntu_1404_amd64.json` installs Chef Server 12 on Ubuntu Server 14.04 LTS (HVM), EBS General Purpose (SSD) Volume Type instance and stores cookbooks in S3.
+
 Tiered
 ------
 
